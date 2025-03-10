@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历 / Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .intro {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+        }
+        .resume { background-color: #f4a261; }
+        .projects { background-color: #e76f51; }
+        .buttons a:hover {
+            opacity: 0.8;
+        }
+        .section {
+            text-align: left;
+            margin-top: 40px;
+        }
+        .profile-img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .pdf-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .pdf-viewer {
+            width: 100%;
+            max-width: 800px;
+            height: 600px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+        }
+        .pdf-link {
+            display: inline-block;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .pdf-link:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Xi He Web</h1>
+        <div class="profile-container">
+            <img src="Picture%20Web/profile.jpg" alt="个人照片 / Profile Picture" class="profile-img">
+        </div>
+        <p class="intro">
+            我是何熙，一名信息技术硕士生，热爱编程、数据分析和软件开发。我对 Web 开发、数据库管理和算法优化有深入研究，并致力于不断提升自己的技术能力。
+            我在编程方面具有广泛的经验，熟练掌握 Python、Java 和 SQL，并且能够使用 Django 和 Flask 进行后端开发。此外，我对前端开发也有一定的了解，能够使用 HTML、CSS 和 JavaScript 进行页面设计和交互开发。
+            在数据分析方面，我擅长使用 Pandas 和 NumPy 进行数据处理，同时能够运用 Matplotlib 和 Seaborn 进行数据可视化。我对机器学习也有一定的研究，曾使用 Scikit-learn 进行数据建模和预测分析。
+            我的项目经验涵盖多个领域，包括 Web 应用开发、数据分析和数据库管理。我曾参与设计和开发课程预约系统，以及农场数据库管理系统，这些项目不仅提升了我的编程技能，也让我深入理解了系统架构设计的关键要点。
+            未来我希望能够不断挑战自己，深入研究大数据处理和人工智能技术，并应用这些技术解决实际问题。
+        </p>
+        
+        <p class="intro">
+            I am Xi He, my nickname is James. And I am a master's student in information technology, who loves programming, data analysis, and software development. I have in-depth research on web development, database management, and algorithm optimization, and I am committed to continuously improving my technical capabilities.
+            I have extensive experience in programming, proficient in Python, Java, and SQL, and can use Django and Flask for back-end development. In addition, I have a certain understanding of front-end development and can use HTML, CSS, and JavaScript for page design and interactive development.
+            In terms of data analysis, I am good at using Pandas and NumPy for data processing, and can use Matplotlib and Seaborn for data visualization. I also have some research on machine learning and have used Scikit-learn for data modeling and predictive analysis.
+            My project experience covers multiple fields, including web application development, data analysis, and database management. I have participated in the design and development of a course reservation system and a farm database management system. These projects not only improved my programming skills, but also gave me a deep understanding of the key points of system architecture design.
+            In the future, I hope to continue to challenge myself, delve into big data processing and artificial intelligence technologies, and apply these technologies to solve practical problems.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects" class="projects">Projects</a>
+        </div>
+        
+        <div id="projects" class="section">
+            <h2>项目 / Projects</h2>
+            <div class="project">
+                <h3>网页社交平台 / Web social platform  </h3>
+                <p>这是一个多功能的社交平台，主要包含了社交和游戏功能。并且接入了AI功能，是一个多功能的社交品台。主要是涉及了网页开发和数据库的开发，涉及到了python, sql, javascript, css, html，我们使用了Flask来帮助我们完成这个任务。</p>
+                <p>This is a multifunctional social platform, which mainly includes social and game functions. It is also connected to AI functions. It is a multifunctional social platform. It mainly involves web development and database development, involving python, sql, javascript, css, html. We used Flask to help us complete this task.</p>
+                <a href="https://github.com/GaleForceWYL21/Web-Development.git" target="_blank">查看项目</a>
+            </div>
+            <div class="project">
+                <h3>农场数据库管理系统 / Farm Database Management System</h3>
+                <p>这是一个为了西澳大学的农学院的教授和学生开发的网页，通过敏捷网页开发，完成这个项目。我们主要是用了Django来协助我们完成整个项目，我们每周通过和项目需求方开会来展示我们所完成的部分以及沟通来完善我们的项目。这个项目主要是为了项目的数据上传和下载，主要难点是如何解决对于不同人员的登陆而拥有不同的功能，比如说管理人员需要有调动，整理，删除，增加等相关功能，而学生却不需要此功能，所以如何针对不同人员需要有不同的功能，却又都需要调用相同数据库，而不影响相互的数据识别。</p>
+                <p>This is a webpage developed for professors and students of the Faculty of Agriculture at the University of Western Australia. This project was completed through agile web development. We mainly used Django to assist us in completing the entire project. We held weekly meetings with the project demanders to show what we have completed and communicate to improve our project. This project is mainly for uploading and downloading project data. The main difficulty is how to solve the problem of different functions for different personnel to log in. For example, managers need to have related functions such as transfer, sorting, deletion, and addition, but students do not need this function. So how to have different functions for different personnel, but they all need to call the same database without affecting each other's data recognition.</p>
+                <a href="https://github.com/demstar16/ridgefield-farm-database.git" target="_blank">查看项目</a>
+            </div>
+        </div>
+        
+        <div class="pdf-container">
+            <h3>本科毕业证书 / Bachelor Degree Certificate</h3>
+            <embed class="pdf-viewer" src="PDF%20Web/bachelor_degree.pdf" type="application/pdf">
+        </div>
+        
+        <div class="pdf-container">
+            <h3>硕士在读证明 / Master Enrollment Proof</h3>
+            <embed class="pdf-viewer" src="./PDF%20Web/master_proof.pdf" type="application/pdf">
+            <a href="PDFWeb/master_proof.pdf" target="_blank" class="pdf-link">点击查看 / View PDF</a>
+        </div>
+    </div>
+</body>
+</html>
